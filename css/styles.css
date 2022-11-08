@@ -131,3 +131,33 @@ input[type="email"] {
   width: 250px;
   height: 20px;
 }
+
+/* boxes */
+#boxes{
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#boxes .box{
+  width: 30%;
+  text-align: center;
+  padding: 15px;
+  float: left;
+  color: #0b0f36;
+}
+
+#boxes h3{
+  color: #1d7cdb;
+}
+
+#boxes .box img{
+  width: 100px;
+}
+
+footer{
+  background-color: #1d7cdb;
+  color: #0b0f36;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
