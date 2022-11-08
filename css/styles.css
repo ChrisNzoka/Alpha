@@ -1,0 +1,84 @@
+body {
+  /*setting the font and typography*/
+  /*
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  */
+  font: 16px/1.5 Arial, Helvetica, sans-serif; /* integrates all the fonts rules into one */
+  margin: 0;
+  padding: 0;
+  background-color: #e8f0f7;
+}
+
+/* Global rules */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.brand_highlight {
+  color: #1d7cdb;
+}
+
+a:hover {
+  color: #1d7cdb;
+  font-weight: bolder;
+}
+
+a:active {
+  color: #ff3e04;
+}
+
+/* Header */
+header {
+  background-color: #0b0f36;
+  color: #ffffff;
+  border-bottom: 4px #1d7cdb solid;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #e8f0f7;
+}
+
+header li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e8f0f7;
+}
+
+header ul li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+#branding {
+  float: left;
+}
+
+#branding h1 {
+  margin: 0;
+}
+
+nav {
+  float: right;
+  margin-top: 15px;
+}
+
+nav a:hover {
+  color: #1d7cdb;
+  font-weight: bolder;
+}
+
+nav a:active {
+  color: #ff3e04;
+}
