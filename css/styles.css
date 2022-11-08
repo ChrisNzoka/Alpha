@@ -45,12 +45,12 @@ a:active {
   cursor: pointer;
 }
 
-.button_1:hover{
+.button_1:hover {
   color: #0b0f36;
   font-weight: bold;
 }
 
-.button_1:active{
+.button_1:active {
   background-color: #e8f0f7;
 }
 
