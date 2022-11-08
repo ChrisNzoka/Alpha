@@ -92,6 +92,11 @@ nav {
   margin-top: 15px;
 }
 
+.current a{
+  color: #1d7cdb;
+  font-weight: bold;
+}
+
 /* Showcase*/
 #showcase {
   min-height: 400px;
@@ -133,12 +138,12 @@ input[type="email"] {
 }
 
 /* boxes */
-#boxes{
+#boxes {
   padding: 20px;
   margin-top: 20px;
 }
 
-#boxes .box{
+#boxes .box {
   width: 30%;
   text-align: center;
   padding: 15px;
@@ -146,18 +151,27 @@ input[type="email"] {
   color: #0b0f36;
 }
 
-#boxes h3{
+#boxes h3 {
   color: #1d7cdb;
 }
 
-#boxes .box img{
+#boxes .box img {
   width: 100px;
 }
 
-footer{
+footer {
   background-color: #1d7cdb;
   color: #0b0f36;
   text-align: center;
   padding: 10px;
   margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 550;
+}
+
+footer a:hover {
+  color: #e8f0f7;
 }
