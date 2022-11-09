@@ -54,6 +54,13 @@ a:active {
   background-color: #e8f0f7;
 }
 
+.dark {
+  background: #0b0f36;
+  color: #e8f0f7;
+  padding: 15px;
+  text-align: justify;
+}
+
 /* Header */
 header {
   background-color: #0b0f36;
@@ -92,7 +99,7 @@ nav {
   margin-top: 15px;
 }
 
-.current a{
+.current a {
   color: #1d7cdb;
   font-weight: bold;
 }
@@ -174,4 +181,23 @@ footer a {
 
 footer a:hover {
   color: #e8f0f7;
+}
+/* About page content */
+#main-col {
+  float: left;
+  width: 60%;
+  text-align: justify;
+}
+
+.page-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#sidebar {
+  float: right;
+  width: 35%;
+  margin-top: 20px;
+  padding-top: 0;
+  border-bottom: 4px #1d7cdb solid;
 }
